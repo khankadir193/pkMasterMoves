@@ -603,7 +603,7 @@ a {
 .guide-table th, td{
   /*border: 1px solid white;*/
   border-collapse: collapse;
-  font-size: 2.4vw;
+  font-size: 3vw;
 }
 
 .close-btn{
