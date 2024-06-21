@@ -111,12 +111,12 @@ function rowsCount(item){
   dataList.forEach(dataCount);
   console.log("counter is"+counter);
 
-  if(counter>=0 && counter<=17){
+  if(counter>=0 && counter<=8){
 $('#conDiv').append('<div class="colThree"><div><a href="http://www.kktv1.com/m/?roomid='+id+'"><img src="../common/img/kk_head_avatar_men.png" id="u_img_'+id+'" alt="" class="imgClass"></a></div><div class="centerDiv"><img src="img/coin.png" class="imgsmal">'+name+'<br>ID-'+id+'</div><div class="lastDiv"><span class="dancing">'+times+'</span></div></div>');
 
   }
 
-  else  if(counter>17 && counter<=25){
+  else  if(counter>8 && counter<=14){
 $('#conDivTalent').append('<div class="colThree"><div><a href="http://www.kktv1.com/m/?roomid='+id+'"><img src="../common/img/kk_head_avatar_men.png" id="u_img_'+id+'" alt="" class="imgClass"></a></div><div class="centerDiv"><img src="img/coin.png" class="imgsmal">'+name+'<br>ID-'+id+'</div><div class="lastDiv"><span class="dancing">'+times+'</span></div></div>');
   }
 
